@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container {
+  width: 80%;
+  max-width: 1000px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+}
+body .container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+body .container > .form-container {
+  margin-bottom: 30px;
+}
+body .container > .form-container h2 {
+  margin-bottom: 15px;
+}
+body .container > .form-container form {
+  display: flex;
+  flex-direction: column;
+}
+body .container > .form-container form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+body .container > .form-container form input[type=text],
+body .container > .form-container form input[type=number],
+body .container > .form-container form input[type=url],
+body .container > .form-container form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+body .container > .form-container form textarea {
+  resize: vertical;
+  height: 100px;
+}
+body .container > .form-container form button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+body .container > .form-container form button:hover {
+  background-color: #0056b3;
+}
+
+/*# sourceMappingURL=styles.css.map */
